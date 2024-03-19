@@ -1,0 +1,104 @@
+* {
+    font-family: tahoma;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.header a:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 17.5%;
+    margin-left: -14px;
+    background-color: #b80000;
+}
+
+.header a:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 7px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #b80000;
+}
+
+.header-web {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4 ease 0s;
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+}
+
+.container {
+    background-color:white;
+    /* border: 2px solid; */
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.border-preview {
+    background-color:white;
+    padding: 10px;
+    height: 260px;
+    width: 250px;
+    margin-top: 10px;
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product {
+    /* background-color: aqua; */
+    color: black;
+    padding: 1px;
+    text-decoration: none;
+}
+
+.price {
+    margin-top: 5px;
+}
+
+.image-product {
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product:hover {
+    color : blue;
+}
+
+/* .title-preview {
+    background-color:deeppink;
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    padding: 3px;
+    border-style: outset;
+    justify-content: center;
+}
+
+ */

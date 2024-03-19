@@ -1,0 +1,148 @@
+* {
+    font-family: tahoma;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.header a:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 17.5%;
+    margin-left: -14px;
+    background-color: #b80000;
+}
+
+.header a:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 7px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #b80000;
+}
+
+.header-web {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4 ease 0s;
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+}
+
+.container {
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border-preview {
+    background-color:rgb(252, 252, 250);
+    height: 1000px;
+    width: 1000px;
+    margin-top: 10px;
+    /* border: 2px solid; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product {
+    /* background-color: aqua; */
+    color: black;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.price {
+    margin-top: 5px;
+}
+
+.button-buy {
+    position: absolute;
+    background-color: #1da3ec;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.wa-logo {
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    margin-right: 2px;
+}
+
+.button-buy:hover {
+    background-color: rgb(155, 241, 248);
+}
+
+.tokopedia {
+    position: absolute;
+    background-color: #16af32;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.store-logo {
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    margin-right: 2px;
+}
+
+.tokopedia:hover {
+    background-color: rgb(111, 244, 111);
+}
+
+.image-product {
+    height: 350px;
+    width: 350px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+/* .product:hover {
+    color : blue;
+} */
+
+/* .title-preview {
+    background-color:deeppink;
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    padding: 3px;
+    border-style: outset;
+    justify-content: center;
+}
+
+ */
